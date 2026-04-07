@@ -1,0 +1,23 @@
+ticker_a: "LKOH"
+ticker_b: "ROSN"
+z_score_rolling_n: 110
+
+train_start_date: "2016-01-01"
+train_end_date: "2022-12-31"
+backtest_start_date: "2023-01-01"
+backtest_end_date: "2026-03-06"
+
+initial_capital: 20000000
+bet_size: 0.3
+commission: 0.001
+fees: 0.001
+slippage: 0
+interest_rate: 0.0001
+rebate_rate: 0.00003
+initial_margin_rate: 0.5
+maintenance_margin_rate: 0.3
+collateral: 1.02
+margin_handle: "partial_closing"
+
+entry_threshold: 2.5
+exit_threshold: 0.0
